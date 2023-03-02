@@ -4378,7 +4378,7 @@ textarea.form-control-lg {
     transform: none;
   }
   .navbar-expand-xxl .offcanvas-top,
-.navbar-expand-xxl .offcanvas-bottom {
+  .navbar-expand-xxl .offcanvas-bottom {
     height: auto;
     border-top: 0;
     border-bottom: 0;
@@ -11294,6 +11294,7 @@ textarea.form-control-lg {
 html {
   height: 100%;
   scroll-padding-top: calc(4.5rem - 1px);
+  touch-action: manipulation;
 }
 
 .page-section {
@@ -11437,7 +11438,7 @@ html {
 }
 
 .masthead {
-  padding-top: calc(6rem + 74px);
+  padding-top: 6rem;
   padding-bottom: 6rem;
 }
 .masthead .masthead-heading {
