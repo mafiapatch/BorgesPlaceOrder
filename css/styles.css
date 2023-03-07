@@ -4061,6 +4061,11 @@ textarea.form-control-lg {
   text-decoration: none;
   white-space: nowrap;
 }
+
+.navbar-brand img{
+  height: 40px;
+}
+
 .navbar-nav {
   display: flex;
   flex-direction: column;
@@ -4231,7 +4236,14 @@ textarea.form-control-lg {
     overflow-y: visible;
   }
 }
+
+
 @media (min-width: 992px) {
+
+  .navbar-brand img{
+    height: 60px;
+  }
+  
   .navbar-expand-lg {
     flex-wrap: nowrap;
     justify-content: flex-start;
